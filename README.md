@@ -6,8 +6,9 @@ The purpose of this project is to deploy the application *BOOKBUDDY* ([github re
 
 #### Technical details:
 ```
-Server : Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 Platform : Amazon Web Service (LightSail)
+Server : Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
+SSH Port: 2200
 Public IP address: 18.223.166.231
 Server name : ec2-18-223-166-231.us-east-2.compute.amazonaws.com
 url: http://18.223.166.231
