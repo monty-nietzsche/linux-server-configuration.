@@ -11,7 +11,6 @@ Platform : Amazon Web Service (LightSail)
 Public IP address: 18.223.166.231
 Server name : ec2-18-223-166-231.us-east-2.compute.amazonaws.com
 url: http://18.223.166.231
-> Note: To access the app with Google Authentication use hhttp://18.223.166.231.xip.io
 ```
 
 
