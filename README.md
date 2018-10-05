@@ -52,17 +52,15 @@ The deployment of the application BookBuddy on an Ubuntu is done in six steps:
     | Custom TCP Rule      | TCP      |   2200 |0.0.0.0/0|
 
 #### 3. Updating the server software
-
-    ```
-     $ sudo apt-get update
-     $ sudo apt-get upgrade
-    ```
+```
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+```
 
 #### 4. Set the local timezone to UTC
-
-    ```
-    $ sudo timedatectl set-timezone UTC
-    ```
+```
+$ sudo timedatectl set-timezone UTC
+```
 
 ## 2. SECURING THE SERVER FROM ILLEGITIMATE ACCESS
 
@@ -273,9 +271,9 @@ The deployment of the application BookBuddy on an Ubuntu is done in six steps:
 
 * In `app.py` file,  replace the line `app_path = ""`:
 
-        ```
-        app_path = '/var/www/bookbuddy/bookbuddy'
-        ```
+    ```
+    app_path = '/var/www/bookbuddy/bookbuddy'
+    ```
 
 * Fill the database with sample data:
 
