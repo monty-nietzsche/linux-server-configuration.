@@ -55,8 +55,8 @@ The deployment of the application BookBuddy on an Ubuntu is done in six steps:
 
 * Updating and upgrading the current packages
 ```
-  $ sudo apt-get update
-  $ sudo apt-get upgrade
+$ sudo apt-get update
+$ sudo apt-get upgrade
 ```
 
 * Automate unattended-upgrades process updates:
