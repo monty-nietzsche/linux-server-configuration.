@@ -168,7 +168,7 @@ $ sudo timedatectl set-timezone UTC
     ```
 * Edit the configuration file for PostgreSQL `postgresql.conf`
     ```
-    $ sudo nano/etc/postgresql/10/main/postgresql.conf
+    $ sudo nano /etc/postgresql/10/main/postgresql.conf
     ```
 * Change the line `listen_addresses = 'localhost'` to `listen_addresses = '*'`
 
