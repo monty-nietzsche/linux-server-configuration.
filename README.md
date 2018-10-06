@@ -10,7 +10,7 @@ Platform : Amazon Web Service (LightSail)
 Server : Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 SSH Port: 2200
 Public IP address: 18.223.166.231
-Server name : ec2-18-223-166-231.us-east-2.compute.amazonaws.com
+Public DNS: ec2-18-223-166-231.us-east-2.compute.amazonaws.com
 url: http://18.223.166.231
 ```
 
@@ -51,11 +51,19 @@ The deployment of the application BookBuddy on an Ubuntu is done in six steps:
     | HTTP      | TCP | 80 | 0.0.0.0/0, ::/0|
     | Custom TCP Rule      | TCP      |   2200 |0.0.0.0/0|
 
-#### 3. Updating the server software
+#### 3. Update and upgrade the server software
+
+* Updating and upgrading the current packages
 ```
     $ sudo apt-get update
     $ sudo apt-get upgrade
 ```
+
+* Automate unattended-upgrades process updates:
+  ```
+  $ sudo apt-get install unattended-upgrades
+  $ sudo dpkg-reconfigure unattended-upgrades
+  ```
 
 #### 4. Set the local timezone to UTC
 ```
