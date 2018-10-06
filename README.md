@@ -60,10 +60,10 @@ The deployment of the application BookBuddy on an Ubuntu is done in six steps:
 ```
 
 * Automate unattended-upgrades process updates:
-  ```
-  $ sudo apt-get install unattended-upgrades
-  $ sudo dpkg-reconfigure unattended-upgrades
-  ```
+```
+$ sudo apt-get install unattended-upgrades
+$ sudo dpkg-reconfigure unattended-upgrades
+```
 
 #### 4. Set the local timezone to UTC
 ```
